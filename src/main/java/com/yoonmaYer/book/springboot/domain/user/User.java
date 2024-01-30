@@ -35,7 +35,7 @@ public class User extends BaseTimeEntity {
         this.role = role;
     }
 
-    private User update(String name, String Picture) {
+    public User update(String name, String Picture) {
         this.name = name;
         this.picture = picture;
 

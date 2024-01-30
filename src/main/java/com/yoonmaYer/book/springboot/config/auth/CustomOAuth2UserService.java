@@ -2,6 +2,7 @@ package com.yoonmaYer.book.springboot.config.auth;
 
 
 import com.yoonmaYer.book.springboot.config.auth.dto.OAuthAttributes;
+import com.yoonmaYer.book.springboot.config.auth.dto.SessionUser;
 import com.yoonmaYer.book.springboot.domain.user.User;
 import com.yoonmaYer.book.springboot.domain.user.UserRepository;
 import jakarta.servlet.http.HttpSession;

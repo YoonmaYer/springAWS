@@ -37,11 +37,16 @@ dependencies {
     // thymeleaf
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 
-    // mustache
-    implementation 'org.springframework.boot:spring-boot-starter-mustache'
+    // security
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+//	implementation 'org.springframework.security:spring-security-test'
+    testImplementation("org.springframework.security:spring-security-test")
 
-    // spring security
+    // spring security oauth2 client
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+
+    // spring session jdbc
+    implementation 'org.springframework.session:spring-session-jdbc'
 }
 
 tasks.named('test') {
